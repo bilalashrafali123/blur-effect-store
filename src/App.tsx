@@ -18,9 +18,6 @@ const App = () => {
           <button className="icon settings">
             <i className="fa-solid fa-gear"></i>
           </button>
-          {/* <button className="icon power">
-            <i className="fa-solid fa-power-off"></i>
-          </button> */}
           <button className="icon power">
             <i className="fa-solid fa-power-off"></i>
           </button>
@@ -71,3 +68,8 @@ const App = () => {
 };
 
 export default App;
+
+
+
+
+
