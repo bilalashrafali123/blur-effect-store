@@ -6,8 +6,8 @@ const App = () => {
       <aside className="sidebar">
         <div className="logo">D3®</div>
         <nav className="nav-icons">
-          <button className="icon home"><i className="fa-solid fa-house"></i></button>
           <button className="icon circle"><i className="fa-solid fa-right-from-bracket"></i></button>
+          <button className="icon home"><i className="fa-solid fa-house"></i></button>
           <button className="icon reload"><i className="fa-solid fa-rotate-right"></i></button>
           <button className="icon settings"><i className="fa-solid fa-gear"></i></button>
           <button className="icon power"><i className="fa-solid fa-power-off"></i></button>
