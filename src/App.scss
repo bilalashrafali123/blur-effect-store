@@ -20,12 +20,12 @@
   flex-direction: column;
   align-items: center;
   padding: 1.2rem 0;
-  gap: 2rem;
+  gap: 1.2rem;
 
   .logo {
     font-size: 1.2rem;
     color: antiquewhite;
-    margin-top: 10px;
+    margin-top: 12px;
   }
 
   .nav-icons {
@@ -204,12 +204,12 @@
     color: antiquewhite;
 
     img {
-    width: 60px;
-    height: 60px;
-    border-radius: 12px;
-    object-fit: cover;
-  }
- 
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
     .banner-text {
       flex: 1;
       margin-left: 1rem;
@@ -230,12 +230,11 @@
       background: rgba(255, 255, 255, 0.3);
       border: none;
       border-radius: 50%;
-      width:  50px;
+      width: 50px;
       height: 50px;
       color: antiquewhite;
       cursor: pointer;
     }
-    
   }
 }
 
