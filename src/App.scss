@@ -205,3 +205,92 @@
     }
   }
   
+  @media (max-width: 1024px) {
+    .glassy-ui {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      flex-direction: row;
+      width: 100%;
+      height: 60px;
+      justify-content: center;
+  
+      .nav-icons {
+        flex-direction: row;
+      }
+  
+      .logo {
+        display: none;
+      }
+    }
+  
+    .main-content {
+      padding: 0.5rem;
+  
+      .top-nav {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+  
+        .links {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+  
+        .right {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
+  
+      .product-section {
+        flex-direction: column;
+        align-items: center;
+  
+        .glass {
+          width: 100%;
+        }
+      }
+  
+      .bottom-banner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+  
+        .banner-text {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .sidebar .nav-icons .icon {
+      padding: 12px;
+    }
+  
+    .product-section .glass {
+      padding: 0.5rem;
+    }
+  
+    .top-nav .links a,
+    .top-nav .right .login,
+    .top-nav .right .lang-icon {
+      font-size: 0.85rem;
+      padding: 0.4rem 0.8rem;
+    }
+  
+    .bottom-banner img {
+      width: 48px;
+      height: 48px;
+    }
+  
+    .bottom-banner .arrow-btn {
+      width: 32px;
+      height: 32px;
+      font-size: 1.2rem;
+    }
+  }
+  
