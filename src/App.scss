@@ -150,14 +150,14 @@
       margin-top: 10px;
       transition: transform 0.3s;
 
-      &:hover {
-        transform: translateY(-5px);
-      }
+     &:hover {
+      transform: translateY(-5px);
+     }
     }
 
     .zoom {
       margin-top: 1rem;
-      width: 32px;
+      width:32px;
       height: 32px;
       border: none;
       border-radius: 50%;
@@ -202,7 +202,7 @@
     justify-content: space-between;
     border-radius: 16px;
     color: antiquewhite;
-
+    
     img {
       width: 60px;
       height: 60px;
