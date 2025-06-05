@@ -32,10 +32,8 @@ const App = () => {
             <a>Collections</a>
           </div>
           <div className="right">
-            <button className="lang-icon">
-              <i className="fa-solid fa-language"></i>
-            </button>
-            <button className="login">Log in</button>
+            <button className="lang-icon">Languages: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i className="fa-solid fa-language"></i></button>
+            <button className="login">Log-in / Sign-up</button>
           </div>
         </header>
         <section className="product-section">
@@ -50,10 +48,10 @@ const App = () => {
           <div className="right-item glass">
             <p className="title">D3 HOODIES</p>
             <img src="/src/assets/hoodie.jpg" alt="Hoodie" className="hoodie" />
-            <p className="desc">
+            <p className="description">
               JACKET <span>1995</span>
             </p>
-            <button className="add">Add to cart</button>
+            <button className="add">Add to cart &nbsp; <i className="fa-solid fa-cart-shopping"></i></button>
           </div>
         </section>
         <footer className="bottom-banner glass">
