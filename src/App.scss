@@ -8,7 +8,8 @@
     display: flex;
     height: 100vh;
     background: url('./assets/bacground.jpg') center/cover no-repeat;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: "Smooch Sans" , sans-serif;
+
     color: #fff;
 }
   
@@ -25,6 +26,8 @@
     .logo {
       font-size: 1.2rem;
       font-weight: bold;
+      color: black;
+      margin-top: 10px;
     }
   
     .nav-icons {
@@ -69,7 +72,7 @@
   
         a {
           text-decoration: none;
-          color: #fff;
+          color: black;
           font-weight: 500;
           cursor: pointer;
         }
@@ -86,7 +89,7 @@
           border-radius: 8px;
           padding: 0.5rem 1rem;
           cursor: pointer;
-          color: #fff;
+          color: black;
         }
       }
     }
@@ -95,6 +98,7 @@
       flex: 1;
       display: flex;
       gap: 1rem;
+      color: black;
   
       .glass {
         flex: 1;
@@ -127,7 +131,7 @@
       .refresh {
         margin-top: 0.5rem;
         font-size: 0.9rem;
-        color: #ddd;
+        color: black;
       }
   
       .title {
@@ -160,6 +164,7 @@
       align-items: center;
       justify-content: space-between;
       border-radius: 16px;
+      color: black;
   
       img {
         width: 60px;
@@ -190,7 +195,7 @@
         border-radius: 50%;
         width: 40px;
         height: 40px;
-        color: white;
+       color: black;
         cursor: pointer;
       }
     }
